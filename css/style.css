@@ -64,3 +64,47 @@
   left: 30%;
   z-index: 25;
 }
+
+.icon-open-circular {
+  width: calc(var(--width) / 5.55555555);
+  height: calc(var(--width) / 5.55555555);
+  background-image: radial-gradient(#888, #aaa);
+  border-radius: 50%;
+  position: absolute;
+  top: 41%;
+  left: 41%;
+  z-index: 26;
+}
+
+.icon-inner-red {
+  width: calc(var(--width) / 7.4);
+  height: calc(var(--width) / 7.4);
+  background-image: radial-gradient(#c9102b, #751322 300%);
+  border-radius: 50%;
+  position: absolute;
+  top: 43.33333333%;
+  left: 43.33333333%;
+  z-index: 27;
+}
+
+.icon-tick-red {
+  width: calc(var(--width) / 16);
+  height: calc(var(--width) / 16);
+  background-image: radial-gradient(#c9102b, #751322 300%);
+  border-radius: 20%;
+  position: absolute;
+  top: 40%;
+  left: 46.875%;
+  z-index: 28;
+}
+
+.icon-tick {
+  width: calc(var(--width) / 28);
+  height: calc(var(--width) / 14);
+  background-image: radial-gradient(#aaa, #ccc 300%);
+  border-radius: 35%;
+  position: absolute;
+  top: 39.5%;
+  left: 48.25%;
+  z-index: 29;
+}
