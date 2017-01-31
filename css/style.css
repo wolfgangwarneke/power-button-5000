@@ -10,6 +10,17 @@
   position: relative;
 }
 
+.black-ridge {
+  width: calc(var(--width) / 1.42); /* (1 - 0.70422535) / 2 = 0.14788732 */
+  height: calc(var(--width) / 1.42);
+  background-image: linear-gradient(135deg, #424242, #222 50%, #000 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: 14.788732%;
+  left: 14.788732%;
+  z-index: 22;
+}
+
 .grey-ridge {
   width: calc(var(--width) / 1.6);
   height: calc(var(--width) / 1.6);
